@@ -8381,7 +8381,7 @@ h1, h2, h3, h4, h5,
   height: 850px; }
   @media (max-width: 991.98px) {
     .slider-text {
-      height: 450px; } }
+      height: 230px; } }
   .slider-text h1 {
     font-size: 44px;
     color: #fff;
@@ -8460,7 +8460,7 @@ h1, h2, h3, h4, h5,
     font-size: 22px;
     font-weight: 600; }
   .request-form p {
-    color: rgba(255, 255, 255, 0.8); }
+    color: #fff; }
   .request-form .form-group {
     position: relative;
     width: 100%;
