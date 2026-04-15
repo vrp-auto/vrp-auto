@@ -64,8 +64,12 @@ body {
 
 .yellow {
   color:#ffc107;
-  text-shadow: 1px 1px 1px #000;
-}
+  text-shadow: 1px 1px 1px #000; }
+
+.vrp-auto {
+    background-color: #244b97;
+    padding: 0px 10px;
+    border-radius: 20px; }
 
 hr {
   -webkit-box-sizing: content-box;
@@ -106,6 +110,17 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0; }
+
+.config li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    display: block;
+    position: relative; }
+
+  .config .spec {
+    position: absolute;
+    right: 0; }
 
 dt {
   font-weight: 700; }
@@ -5087,7 +5102,16 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   color: #212529; }
 
-.carousel {
+#cars-section {
+  margin-bottom: 4em;
+  margin-top: -270px;
+}
+
+#contact-section {
+  margin-top: 4em;
+}
+
+  .carousel {
   position: relative; }
 
 .carousel.pointer-event {
@@ -8276,7 +8300,6 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     @media (max-width: 991.98px) {
@@ -8284,8 +8307,6 @@ h1, h2, h3, h4, h5,
         padding-left: 0 !important;
         padding-right: 0 !important;
         padding-bottom: 0 !important; } }
-    .ftco-navbar-light.scrolled .nav-item.active > a {
-      color: #1089ff !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
       color: #fff !important;
       background: #1089ff;
@@ -8312,7 +8333,6 @@ h1, h2, h3, h4, h5,
         padding-right: 0rem !important; } }
     .ftco-navbar-light.scrolled .navbar-toggler {
       border: none;
-      color: rgba(0, 0, 0, 0.5) !important;
       border-color: rgba(0, 0, 0, 0.5) !important;
       cursor: pointer;
       padding-right: 0;
@@ -8321,8 +8341,7 @@ h1, h2, h3, h4, h5,
       letter-spacing: .1em; }
     .ftco-navbar-light.scrolled .nav-link {
       padding-top: 0.9rem !important;
-      padding-bottom: 0.9rem !important;
-      color: #000000 !important; }
+      padding-bottom: 0.9rem !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #1089ff !important; }
     .ftco-navbar-light.scrolled.awake {
@@ -8334,8 +8353,6 @@ h1, h2, h3, h4, h5,
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
-    .ftco-navbar-light.scrolled .navbar-brand {
-      color: #000000; }
 
 .navbar-brand {
   font-weight: 800;
@@ -8381,12 +8398,12 @@ h1, h2, h3, h4, h5,
   height: 850px; }
   @media (max-width: 991.98px) {
     .slider-text {
-      height: 230px; } }
+      height: 210px; } }
   .slider-text h1 {
     font-size: 44px;
     color: #fff;
     line-height: 1.1;
-    font-weight: 700;
+    font-weight: 600;
     text-shadow: 1px 1px 1px #000; }
     .slider-text h1 span {
       display: block; }
@@ -8634,7 +8651,7 @@ h1, h2, h3, h4, h5,
         color: #fff; }
   .btn.btn-secondary {
     background: #ffc107 !important;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 0 #000;
     color: #fff !important; }
     .btn.btn-secondary:hover {
       border: 1px solid #01d28e;
@@ -8714,7 +8731,6 @@ h1, h2, h3, h4, h5,
         color: #000000; }
     .car-wrap .text span.cat {
       font-weight: 400;
-      color: rgba(0, 0, 0, 0.2);
       display: block;
       margin-bottom: 0; }
     .car-wrap .text p.d-block {
@@ -9136,13 +9152,6 @@ textarea.form-control {
 .about-author .desc h3 {
   font-size: 24px; }
 
-.ftco-section {
-  padding: 6em 0;
-  position: relative; }
-  @media (max-width: 767.98px) {
-    .ftco-section {
-      padding: 6em 0; } }
-
 .ftco-no-pt {
   padding-top: 0; }
 
@@ -9154,8 +9163,8 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #000;
-  padding: 3em 0; }
+  background: #244b97;
+  padding-top: 3em; }
   .ftco-footer .logo {
     text-transform: uppercase;
     font-weight: 700;
@@ -9165,7 +9174,6 @@ textarea.form-control {
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
-    margin-bottom: 40px;
     font-size: 20px;
     font-weight: 400; }
   .ftco-footer .ftco-footer-widget ul li a {
@@ -9538,12 +9546,12 @@ textarea.form-control {
     line-height: 1.5;
     margin-bottom: 15px; }
   .block-23 ul li span {
-    color: rgba(255, 255, 255, 0.7); }
+    color: #fff; }
   .block-23 ul li .icon, .block-23 ul li .text {
     display: table-cell;
     vertical-align: top; }
   .block-23 ul li .icon {
-    width: 40px;
+    width: 27px;
     font-size: 18px;
     padding-top: 2px;
     color: white; }
@@ -9581,13 +9589,14 @@ textarea.form-control {
   .contact-section .contact-info p span {
     display: block;
     font-size: 16px;
-    font-weight: 400;
-    color: #999999; }
+    font-weight: 600;
+    color: #ffc107;
+    text-shadow: 1px 1px 0 #000; }
 
 .contact-section .contact-info .icon {
-  margin-top: 10px; }
+  margin-top: 5px; }
   .contact-section .contact-info .icon span {
-    font-size: 20px;
+    font-size: 27px;
     color: #1089ff; }
 
 @media (min-width: 992px) {
