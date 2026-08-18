@@ -74,7 +74,7 @@
     	<div class="container">
     		<div class="row justify-content-center">
           <div class="col-md-12 heading-section text-center ftco-animate mb-4">
-            <h2 class="yellow">Ce mașini poți închiria<br>de la <span class="vrp-auto"><span style="color:#fff">VRP</span>AUTO</span></h2>
+            <h2 class="yellow">Ce mașini se pot închiria<br>de la <span class="vrp-auto"><span style="color:#fff">VRP</span>AUTO</span></h2>
           </div>
         </div>
     		<div class="row">
@@ -87,14 +87,15 @@
 		    					<div class="text">
 		    						<h2 class="mb-0"><a href="#">Ford Focus</a></h2>
 		    						<div class="d-flex mb-3">
-			    						<ul class="config">
-                        <li>
-                          <span>Caroserie</li>
-                          <span class="spec">Coupe cu 2 uși</span>
-                      </ul>
-		    						</div>
+			    					<ul class="config">
+								<li>
+									<span>Caroserie</span>
+									<span class="spec">Coupe cu 2 uși</span>
+								</li>
+								</ul>
+		    					</div>
                     <p class="price ml-auto yellow">RON 200 <span>/zi</span></p>
-		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Închiriază</a> <a href="#" class="btn btn-secondary py-2 ml-1">Detalii</a></p>
+		    		<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Închiriază</a> <a href="#" class="btn btn-secondary py-2 ml-1">Detalii</a></p>
 		    					</div>
 		    				</div>
     					</div>
@@ -151,37 +152,51 @@
     		<div class="row no-gutters">
     			<div class="col-md-12">
     				<div class="row no-gutters">
-	  					<div class="col-md-4 d-flex align-items-center">
-	  						<form action="#" class="request-form ftco-animate bg-primary">
-		          		<p class="text-center" style="font-size: 18px;text-shadow: 1px 1px 1px #000;">Închiriază o mașină prin <b>VRP<span class="yellow">AUTO</span></b><br>pentru deplasările tale.</p>
-			    				<div class="form-group">
-			    					<label for="" class="label">Locație de ridicare</label>
-			    					<input type="text" class="form-control" placeholder="City, Airport, Station, etc">
-			    				</div>
-			    				<div class="form-group">
-			    					<label for="" class="label">Locație de predare</label>
-			    					<input type="text" class="form-control" placeholder="City, Airport, Station, etc">
-			    				</div>
-			    				<div class="d-flex">
-			    					<div class="form-group mr-2">
-			                <label for="" class="label">Dată preluare mașină</label>
-			                <input type="text" class="form-control" id="book_pick_date" placeholder="Date">
-			              </div>
-			              <div class="form-group ml-2">
-			                <label for="" class="label">Dată predare mașină</label>
-			                <input type="text" class="form-control" id="book_off_date" placeholder="Date">
-			              </div>
-		              </div>
-		              <div class="form-group">
-		                <label for="" class="label">Oră preluare mașină</label>
-		                <input type="text" class="form-control" id="time_pick" placeholder="Time">
-		              </div>
-			            <div class="form-group">
-			              <input type="submit" value="Închiriază acum!" class="btn btn-secondary py-3 px-4" style="font-weight: 800;">
-			            </div>
-			    			</form>
-	  					</div>
-	  				</div>
+							<div class="col-md-4 d-flex align-items-center">
+							<form action="#" class="request-form ftco-animate bg-primary">
+								<p class="text-center" style="font-size: 18px;text-shadow: 1px 1px 1px #000;">Închiriază o mașină prin <b>VRP<span class="yellow">AUTO</span></b><br>pentru deplasările tale.</p>
+								<div class="form-group">
+									<label for="" class="label">Locație de ridicare</label>
+									<select type="text" class="form-control" placeholder="Târgu Mureș, Brașov sau München">
+										<option value="Târgu Mureș">Târgu Mureș</option>
+										<option value="Brașov">Brașov</option>
+										<option value="München">München</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label for="" class="label">Locație de predare</label>
+									<select type="text" class="form-control" placeholder="Târgu Mureș, Brașov sau München">
+										<option value="Târgu Mureș">Târgu Mureș</option>
+										<option value="Brașov">Brașov</option>
+										<option value="München">München</option>
+									</select>
+								</div>
+								<div class="d-flex">
+									<div class="form-group mr-2">
+										<label for="" class="label">Dată preluare mașină</label>
+										<input type="date" class="form-control" id="book_pick_date" placeholder="Dată">
+									</div>
+									<div class="form-group ml-2">
+										<label for="" class="label">Dată predare mașină</label>
+										<input type="date" class="form-control" id="book_off_date" placeholder="Dată">
+									</div>
+								</div>
+								<div class="d-flex">
+									<div class="form-group mr-2">
+										<label for="time_pick" class="label">Oră preluare</label>
+										<input type="time" id="time_pick" class="form-control" name="time_pick" min="09:00" max="18:00" placeholder="Time" required>
+									</div>
+									<div class="form-group ml-2">
+										<label for="time_off" class="label">Oră predare</label>
+										<input type="time" id="time_off" class="form-control" name="time_off" min="09:00" max="18:00" placeholder="Time" required>
+									</div>
+								</div>
+								<div class="form-group">
+									<input type="submit" value="Închiriază acum!" class="btn btn-secondary py-3 px-4" style="font-weight: 800;">
+								</div>
+							</form>
+							</div>
+						</div>
           </div>
 				</div>
   		</div>
@@ -196,7 +211,7 @@
         	<div class="col-md-4">
         		<div class="row mb-5">
 		          <div class="col-md-12">
-		          	<div class="border w-100 p-4 rounded mb-2 d-flex">
+		          	<div class="border w-100 p-4 rounded blue mb-2 d-flex">
 			          	<div class="icon mr-3">
 			          		<span class="icon-map-o"></span>
 			          	</div>
@@ -204,15 +219,15 @@
 			          </div>
 		          </div>
 		          <div class="col-md-12">
-		          	<div class="border w-100 p-4 rounded mb-2 d-flex">
+		          	<div class="border w-100 p-4 rounded blue mb-2 d-flex">
 			          	<div class="icon mr-3">
 			          		<span class="icon-whatsapp"></span>
 			          	</div>
-			            <p><span>Telefon & Whatsapp</span> <a href="tel://1234567920">0748 687 104</a></p>
+			            <p><span>Telefon & Whatsapp</span> <a href="tel:0748687104">0748 687 104</a></p>
 			          </div>
 		          </div>
 		          <div class="col-md-12">
-		          	<div class="border w-100 p-4 rounded mb-2 d-flex">
+		          	<div class="border w-100 p-4 rounded blue mb-2 d-flex">
 			          	<div class="icon mr-3">
 			          		<span class="icon-envelope-o"></span>
 			          	</div>

@@ -66,7 +66,7 @@
 		$('.carousel-car').owlCarousel({
 			center: true,
 			loop: true,
-			autoplay: true,
+			autoplay: false,
 			items:1,
 			margin: 30,
 			stagePadding: 0,
@@ -76,10 +76,10 @@
 				0:{
 					items: 1
 				},
-				600:{
+				2000:{
 					items: 2
 				},
-				1000:{
+				2000:{
 					items: 3
 				}
 			}
@@ -315,10 +315,10 @@
 
 
 	$('#book_pick_date,#book_off_date').datepicker({
-	  'format': 'm/d/yyyy',
+	  'format': 'd.mm.yyyy',
 	  'autoclose': true
 	});
-	$('#time_pick').timepicker();
+	$('#time_pick,#time_off').timepicker();
 
 
 
