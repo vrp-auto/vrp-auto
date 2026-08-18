@@ -66,12 +66,12 @@ body {
   color:#ffc107;
   text-shadow: 1px 1px 1px #000; }
 
-.blue {
-  background-color: #244b97;
+.black {
+  background-color: #000;
 }
 
 .vrp-auto {
-    background-color: #244b97;
+    background-color: #000;
     padding: 0px 10px;
     border-radius: 20px; }
 
@@ -8268,7 +8268,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #244b97 !important;
+      background: #000 !important;
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
@@ -8705,7 +8705,7 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #244b97 !important;
+    background: #000 !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #1089ff;
@@ -9203,7 +9203,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: #244b97 !important; }
+  background: #000 !important; }
 
 .bg-black {
   background: #000000; }
@@ -9233,7 +9233,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #244b97;
+  background: #000;
   padding-top: 3em; }
   .ftco-footer .logo {
     text-transform: uppercase;
