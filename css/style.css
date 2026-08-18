@@ -9159,7 +9159,7 @@ h1, h2, h3, h4, h5,
     -ms-transform: skewY(-4deg);
     -o-transform: skewY(-4deg);
     transform: skewY(-4deg);
-    background-color: #f8f9fa; }
+    background-color: #000; }
 
 .aside-stretch {
   background: #43a2ff; }
