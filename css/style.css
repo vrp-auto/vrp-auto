@@ -66,12 +66,12 @@ body {
   color:#ffc107;
   text-shadow: 1px 1px 1px #000; }
 
-.black {
-  background-color: #000;
+.blue-bg {
+  background-color: #244b97;
 }
 
 .vrp-auto {
-    background-color: #000;
+    background-color: #244b97;
     padding: 0px 10px;
     border-radius: 20px; }
 
@@ -503,7 +503,8 @@ pre {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
-  margin-left: -15px; }
+  margin-left: -15px;
+  justify-content: center; }
 
 .no-gutters {
   margin-right: 0;
@@ -5115,7 +5116,7 @@ html, body {
 
 #cars-section {
   margin-bottom: 4em;
-  margin-top: -270px;
+  margin-top: -200px;
 }
 
 #contact-section {
@@ -8229,7 +8230,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #000;
+  background: #fff;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -8268,7 +8269,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000 !important;
+      background: #244b97 !important;
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
@@ -8289,7 +8290,8 @@ h1, h2, h3, h4, h5,
     padding-right: 20px;
     color: #fff;
     font-weight: 400;
-    opacity: 1 !important; }
+    opacity: 1 !important;
+    text-shadow: 1px 1px 2px #000000; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
       color: #01d28e; }
     @media (max-width: 991.98px) {
@@ -8345,8 +8347,8 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored a {
     border: 1px solid #01d28e;
     background: #01d28e !important; }
-  .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #01d28e; }
+  /* .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #ffc107; } */
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
       color: #ffc107; } }
@@ -8414,6 +8416,7 @@ h1, h2, h3, h4, h5,
         color: #1089ff !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
+      background-color: #244b97 !important;
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
@@ -8433,7 +8436,7 @@ h1, h2, h3, h4, h5,
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center; }
+  background-position: center; }
   @media (max-width: 1199.98px) {
     .hero-wrap {
       background-position: center center !important; } }
@@ -8463,7 +8466,7 @@ h1, h2, h3, h4, h5,
       height: 600px !important; }
 
 .slider-text {
-  height: 850px; }
+  height: 450px; }
   @media (max-width: 991.98px) {
     .slider-text {
       height: 210px; } }
@@ -8706,7 +8709,7 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #000 !important;
+    background: #244b97 !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #1089ff;
@@ -8780,8 +8783,7 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: 0px 5px 12px -1px rgba(0, 0, 0, 0.06);
   -moz-box-shadow: 0px 5px 12px -1px rgba(0, 0, 0, 0.06);
   box-shadow: 0px 5px 12px -1px rgba(0, 0, 0, 0.06);
-  background: #000;
-  border: 2px solid rgba(255, 255, 255, 0.5);}
+  background: #fff;}
   .car-wrap .img {
     width: 100%;
     height: 220px; }
@@ -9159,7 +9161,7 @@ h1, h2, h3, h4, h5,
     -ms-transform: skewY(-4deg);
     -o-transform: skewY(-4deg);
     transform: skewY(-4deg);
-    background-color: #000; }
+    background-color: #fff; }
 
 .aside-stretch {
   background: #43a2ff; }
@@ -9205,7 +9207,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: #000 !important; }
+  background: #244b97 !important; }
 
 .bg-black {
   background: #000000; }
@@ -9235,7 +9237,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #000;
+  background: #244b97;
   padding-top: 3em; }
   .ftco-footer .logo {
     text-transform: uppercase;
